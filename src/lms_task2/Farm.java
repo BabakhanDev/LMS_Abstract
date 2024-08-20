@@ -17,6 +17,7 @@ public class Farm {
         this.ownerName = ownerName;
     }
 
+
     public String getAddress() {
         return address;
     }

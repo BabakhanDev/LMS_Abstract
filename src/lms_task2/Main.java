@@ -21,7 +21,9 @@ public class Main {
                 new Horse(650, 6, "Female", "Akkula")
         };
         Farm farm1 = new Farm("Chuy",farm1Cows,farm1Sheep,farm1Horse,"Bakai");
-        System.out.println("farm1: "+farm1);
+        System.out.println("Ферма 1: "+farm1);
+
+
 
         Animal[] farm2Cows = {
                 new Cow(490,3,"Female","Cow1")};
@@ -30,7 +32,7 @@ public class Main {
                 new Horse(620,5,"Female","Spirit")};
         Farm farm2 = new Farm("Naryn",farm2Cows,farm2Sheep,farm2Horses,"Asan");
         System.out.println(" ");
-        System.out.println("farm2: "+farm2);
+        System.out.println("Ферма 2: "+farm2);
 
     }
     }
